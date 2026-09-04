@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../server/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum YnCode {
+  Y
+  N
+}
+
+enum UserRole {
+  USER
+  SUB_ADMIN
+  ADMIN
+  SUPER_ADMIN
+}
+
+model User {
+  id             Int      @id @default(autoincrement())
+  email          String   @unique
+  name           String
+  role           UserRole @default(USER)
+  hashedPassword String   @map("hashed_password")
+  accessToken    String?  @map("access_token")
+  refreshToken   String?  @map("refresh_token")
+
+  useYn      YnCode    @default(Y) @map("use_yn")
+  delYn      YnCode    @default(N) @map("del_yn")
+  createId   Int       @map("create_id")
+  createDate DateTime  @default(now()) @map("create_date") @db.Timestamptz(3)
+  updateId   Int       @map("update_id")
+  updateDate DateTime  @updatedAt @map("update_date") @db.Timestamptz(3)
+  deleteId   Int?      @map("delete_id")
+  deleteDate DateTime? @map("delete_date") @db.Timestamptz(3)
+
+  @@map("users")
+}

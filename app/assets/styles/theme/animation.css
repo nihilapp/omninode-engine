@@ -1,0 +1,4 @@
+@theme default {
+  --animate-spin-2: spin 2s linear infinite;
+  --animate-spin-3: spin 3s linear infinite;
+}

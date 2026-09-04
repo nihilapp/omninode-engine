@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@import "./theme/colors.css";
+@import "./theme/typography.css";
+@import "./theme/breakpoints.css";
+@import "./theme/animation.css";
+
+@import "./utilities/layout.css";
+@import "./utilities/sizing.css";
+@import "./utilities/radius.css";
+@import "./utilities/button.css";
+@import "./utilities/menu.css";
+@import "./utilities/scrollbar.css";
+
+@import "./base/app.css";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+@plugin "tailwind-scrollbar";
+
+@custom-variant dark (&:where(.dark, .dark *));

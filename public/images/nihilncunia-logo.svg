@@ -1,0 +1,15 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="32"
+  height="32"
+  viewBox="0 0 300 300"
+  fill="none"
+  aria-hidden="true"
+>
+  <path
+    d="M 253 18 L 45 73 L 45 100 L 205 57 L 209 58 L 208 140 L 91 117 L 89 115 L 89 97 L 45 109 L 45 281 L 253 226 L 253 200 L 250 200 L 98 241 L 89 241 L 90 159 L 208 182 L 209 202 L 253 191 Z"
+    fill="black"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+  />
+</svg>

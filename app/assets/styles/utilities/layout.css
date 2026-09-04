@@ -1,0 +1,23 @@
+@utility flex-row-* {
+  display: flex;
+  flex-direction: row;
+  gap: calc(--value(number) * var(--spacing));
+}
+
+@utility flex-col-* {
+  display: flex;
+  flex-direction: column;
+  gap: calc(--value(number) * var(--spacing));
+}
+
+@utility frame-header {
+  @apply flex flex-row justify-between items-center p-2 border-b border-black-200 bg-white text-black-900;
+}
+
+@utility frame-footer {
+  @apply border-t border-black-200 p-2 text-black-900 bg-white;
+}
+
+@utility frame-nav-separator {
+  @apply hidden md:block w-1 h-auto bg-black-300;
+}

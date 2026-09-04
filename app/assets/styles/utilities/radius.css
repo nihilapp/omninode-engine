@@ -1,0 +1,44 @@
+/* 기본 의미형 radius 토큰은 제거하고 숫자 체계만 사용한다. */
+@theme {
+  --radius-*: initial;
+}
+
+@utility rounded-* {
+  border-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-t-* {
+  border-top-left-radius: calc(--value(number) * var(--spacing));
+  border-top-right-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-r-* {
+  border-top-right-radius: calc(--value(number) * var(--spacing));
+  border-bottom-right-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-b-* {
+  border-bottom-right-radius: calc(--value(number) * var(--spacing));
+  border-bottom-left-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-l-* {
+  border-top-left-radius: calc(--value(number) * var(--spacing));
+  border-bottom-left-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-tl-* {
+  border-top-left-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-tr-* {
+  border-top-right-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-br-* {
+  border-bottom-right-radius: calc(--value(number) * var(--spacing));
+}
+
+@utility rounded-bl-* {
+  border-bottom-left-radius: calc(--value(number) * var(--spacing));
+}

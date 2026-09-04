@@ -1,0 +1,16 @@
+@utility menu-base {
+  @apply flex-row-1 items-center justify-center px-2 py-1 border-b-2 border-transparent text-black-900 bg-white transition-colors duration-200 ease-in-out;
+}
+
+/* 언더라인 메뉴: menu-underline-{color}-{shade} */
+@utility menu-underline-* {
+  color: --value(--color-*);
+  border-bottom-color: --value(--color-*);
+  border-bottom-width: 2px;
+}
+
+/* 배경 메뉴: menu-fill-{color}-{shade} */
+@utility menu-fill-* {
+  background-color: --value(--color-*);
+  color: contrast-color(--value(--color-*));
+}

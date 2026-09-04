@@ -1,0 +1,26 @@
+/* 명시적 viewport 단위 */
+@utility w-dvw-* {
+  width: calc(--value(number) * 1dvw);
+}
+
+@utility h-dvh-* {
+  height: calc(--value(number) * 1dvh);
+}
+
+/* 기존 클래스 호환용 별칭 */
+@utility dvw-* {
+  width: calc(--value(number) * 1dvw);
+}
+
+@utility dvh-* {
+  height: calc(--value(number) * 1dvh);
+}
+
+/* percentage */
+@utility w-pct-* {
+  width: calc(--value(number) * 1%);
+}
+
+@utility h-pct-* {
+  height: calc(--value(number) * 1%);
+}
