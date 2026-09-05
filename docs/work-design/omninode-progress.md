@@ -5,8 +5,8 @@
 ## 현재 요약
 
 - 현재 단계: 제품 데이터 스키마 구현 준비
-- 현재 작업: 확정된 데이터 스키마를 실제 구현 단위로 구체화할 준비
-- 다음 작업: 제품 데이터 스키마 구현 설계 범위 확인
+- 현재 작업: 정식 채택한 개발 로드맵에 따라 제품 데이터 스키마 구현 설계 준비
+- 다음 작업: 세션 저장 방식 결정
 - 제품 기능 구현: 시작 전
 
 ## 상태 기준
@@ -26,6 +26,7 @@
 | PLAN-03 | 제품 설계 | 데이터 스키마 구상과 교차 점검 | 완료 | [데이터 스키마 구상](../project-design/2026-08-29-omninode-data-schema.md), [교차 점검](./2026-08-30-data-schema-cross-check.md) |
 | PLAN-04 | 제품 설계 | 도메인 책임, 권한, 검증, 실패, 상태 전이 | 완료 | [도메인 책임](../project-design/2026-08-30-omninode-domain-responsibilities.md), [권한](../project-design/2026-08-30-omninode-permission-matrix.md), [검증](../project-design/2026-08-30-omninode-validation-rules.md), [실패](../project-design/2026-08-30-omninode-failure-conditions.md), [상태 전이](../project-design/2026-08-30-omninode-state-transitions.md) |
 | PLAN-05 | 제품 설계 | 33개 페이지 역할과 복수형 API 설계 | 완료 | [라우트·API 설계](../project-design/2026-09-03-omninode-route-api-design.md), [추적성 검증](./2026-09-03-route-api-design-documentation.md) |
+| ROADMAP-01 | 작업 설계 | 후속 개발 순서와 단계별 완료 기준 | 완료 | [개발 로드맵](./2026-09-04-omninode-development-roadmap.md) 정식 채택 |
 | BASE-01 | 개발 기반 | 공통 API 응답·요청 및 데이터 질의 기반 | 완료 | [품질 기준선 복구 계획](../superpowers/plans/2026-09-03-quality-baseline-recovery.md)에 따른 구현과 검증 완료 |
 | BASE-02 | 개발 기반 | 의존성과 아이콘 기반 정리 | 완료 | [의존성·아이콘 정리 계획](../superpowers/plans/2026-09-03-dependency-icon-baseline-cleanup.md)에 따른 구현과 검증 완료 |
 | REPO-01 | 저장소 | 초기 이력 정리와 프로젝트 정체성 정비 | 완료 | [초기 이력·진행 현황 정리 계획](../superpowers/plans/2026-09-03-omninode-initial-history-progress.md)에 따른 정리와 검증 완료 |
@@ -52,6 +53,7 @@
 
 - 전체 테스트, 린트, 타입 검사와 빌드를 통과한 초기 저장소를 공개했다.
 - 최초 커밋 `600e2ee`를 원격 `master`에 게시하고 기본 브랜치로 확인했다.
+- 기반 구축 뒤 기능별로 API와 페이지를 함께 완성하는 12단계 개발 로드맵을 정식 채택했다.
 
 ### 2026-09-03
 

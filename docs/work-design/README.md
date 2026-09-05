@@ -9,10 +9,11 @@
 ## 문서 목록
 
 - [옴니노드 개발 현황](./omninode-progress.md)
+- [옴니노드 개발 로드맵](./2026-09-04-omninode-development-roadmap.md)
 - [요구사항 구체화](./2026-08-29-requirements-elicitation.md)
 - [바이브 코딩 절차](./2026-08-29-vibe-coding-procedure.md)
 - [데이터 스키마 교차 점검](./2026-08-30-data-schema-cross-check.md)
 - [유스케이스 정합성 점검](./2026-08-30-use-case-consistency-check.md)
 - [라우트·API 설계 문서화](./2026-09-03-route-api-design-documentation.md)
 
-`옴니노드 개발 현황`은 설계와 구현의 완료 범위, 현재 작업, 다음 작업과 검증 근거를 공개적으로 추적하는 단일 기준 문서다.
+`옴니노드 개발 로드맵`은 정식 채택한 장기 개발 순서의 기준이고, `옴니노드 개발 현황`은 설계와 구현의 실제 완료 범위, 현재 작업, 다음 작업과 검증 근거를 공개적으로 추적하는 단일 기준 문서다.
